@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root
+{
+    --fcolor: #131418;
+--scolor:white;
+}
+.dark
+{
+    --fcolor: white;
+--scolor:#131418;
+}
+body {
+    background-color: var(--fcolor);
+    color:var(--scolor);
+  }
+  .sign {
+    font-family: "Great vibes", sans-serif;
+    margin: 50px;
+    font-size: large;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+  }
+  .main h1 {
+    font-size: 3rem;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ri-nav i {
+    padding: 50px;
+  }
