@@ -21,12 +21,17 @@ export default function Navbar() {
         },
     ]
   return (
-    <nav>
-<h1>Johan George</h1>
-<div>
-    {socials.map((social)=>
+    <nav className="py-10 flex justify-between items-center">
+<h1 className="text-2xl font-bold">Johan George</h1>
+<div className="flex item-center gap-10">
+    {socials.map((social,index)=>
     {
-        return <Link></Link>
+        const Icon =social.icon;
+        return (
+        <Link href={social.link} key={index} aria-label= {social.label}>
+            <Icon className="w-5 h-10 hover:scale-125 transition-all" />
+        </Link>
+    );
     })}
 </div>
     </nav>
