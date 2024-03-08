@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import Title from './Title'
 import { SiReact } from 'react-icons/si'
@@ -18,7 +19,7 @@ export default function Skills() {
 
     <div>
         <Title text='Skills' className="flex flex-col items-center justify-center rotate-6"/>
-        <HoverEffect/> 
+        <HoverEffect items={skills} /> 
     </div>
   )
 }
