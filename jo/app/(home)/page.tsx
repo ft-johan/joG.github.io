@@ -4,8 +4,8 @@ import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-<div className="min-h-screen bg-black ">
-  <div className="max-w-7xl mx-auto sm:p-5 overflow-hidden">
+<div className="min-h-screen bg-black overflow-hidden ">
+  <div className="max-w-7xl mx-auto p-5">
     <Navbar />
     <Hero />
   </div>
