@@ -8,10 +8,10 @@ export default function Title({
   className?: string;
 }) {
   return (
-    <div className="inline-block">
-      <div>
+<div className={className}>
+      <div className="inline-block">
         <h1 className="text-3xl font-bold hover:text-teal-600 transition-all">
-          Contact me
+          {text}
         </h1>
       </div>
     </div>
