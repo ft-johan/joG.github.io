@@ -47,7 +47,11 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-         <div className="rounded-md w-full"></div>
+         <div className="rounded-md w-full p-4 overflow-hidden bg-black group-hover:ring-2 ring-green-500 relative transition-all z-20 duration-500">
+            <div>
+                <p className="">{item.text}</p>
+            </div>
+         </div>
         </div>
       ))}
     </div>
