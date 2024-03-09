@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Title from './Title'
-import { SiAbletonlive, SiCss3, SiFirebase, SiHtml5, SiJavascript, SiKotlin, SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si'
+import { SiAbletonlive, SiCss3, SiFirebase, SiGit, SiHtml5, SiJavascript, SiKotlin, SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
 
 export default function Skills() {
@@ -37,6 +37,10 @@ export default function Skills() {
         {
             text: "CSS3",
             Icon: SiCss3,
+        },
+        {
+            text: "Git",
+            Icon: SiGit,
         },
 
     ]
