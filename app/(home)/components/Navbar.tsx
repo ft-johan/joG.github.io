@@ -7,7 +7,7 @@ export default function Navbar({className}:{className?:string}) {
   const socials = [
     {
       link: "",
-      label: "",
+      label: "Github",
       icon: SiGithub,
     },
     {
