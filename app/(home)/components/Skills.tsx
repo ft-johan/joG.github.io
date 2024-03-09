@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Title from './Title'
-import { SiAbletonlive, SiKotlin, SiReact, SiTailwindcss } from 'react-icons/si'
+import { SiAbletonlive, SiCss3, SiFirebase, SiHtml5, SiJavascript, SiKotlin, SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
 
 export default function Skills() {
@@ -15,24 +15,28 @@ export default function Skills() {
             Icon: SiKotlin,
         },
         {
-            text: "Ableton",
-            Icon: SiAbletonlive,
+            text: "Next.js",
+            Icon: SiNextdotjs,
         },
         {
             text: "Tailwind",
             Icon: SiTailwindcss,
         },
         {
-            text: "React",
-            Icon: SiReact,
+            text: "Firebase",
+            Icon: SiFirebase,
         },
         {
-            text: "React",
-            Icon: SiReact,
+            text: "Javascript",
+            Icon: SiJavascript,
         },
         {
-            text: "React",
-            Icon: SiReact,
+            text: "HTML5",
+            Icon: SiHtml5,
+        },
+        {
+            text: "CSS3",
+            Icon: SiCss3,
         },
 
     ]
