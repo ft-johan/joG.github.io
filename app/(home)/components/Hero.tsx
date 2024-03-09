@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="text-4xl lg:text-7xl font-bold">
           Hi nice to meet you
           <br />
-          I'm Johan
+          I am Johan
         </h1>
         <p className="md:w-96 text-lg text-gray-300">{"Based in India , I'm a Fullstack Developer a Btech Sophmore"}</p>
         <Link href={"mailto:johangeorge201203@gmail.com"} className="inline-block">

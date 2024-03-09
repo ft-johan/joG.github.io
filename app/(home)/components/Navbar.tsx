@@ -11,13 +11,13 @@ export default function Navbar({className}:{className?:string}) {
       icon: SiGithub,
     },
     {
-      link: "",
-      label: "",
+      link: "https://www.linkedin.com/in/johan-george-/",
+      label: "LinkedIn",
       icon: SiLinkedin,
     },
     {
-      link: "",
-      label: "",
+      link: "https://www.instagram.com/ft._johan/",
+      label: " Instagram",
       icon: SiInstagram,
     },
   ];
